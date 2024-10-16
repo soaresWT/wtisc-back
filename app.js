@@ -18,7 +18,7 @@ app.set("view engine", "ejs");
 // Configuração de CORS (deve vir antes das rotas)
 app.use(
   cors({
-    origin: "*", // Permite todas as origens
+    origin: "http://localhost:5173", // Permite todas as origens
     methods: "GET, POST, PUT, DELETE", // Métodos HTTP permitidos
     allowedHeaders: "Content-Type, Authorization", // Cabeçalhos permitidos
     credentials: true, // Permite envio de cookies
